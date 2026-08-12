@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  
+  --color-primary: #740174;
+  --color-primary-light: #9877c4;
+  --color-primary-foreground: #ffffff;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-stone-50 text-stone-900;
+  }
+}
+
+.leaflet-container { z-index: 0 !important; }

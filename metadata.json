@@ -1,0 +1,6 @@
+{
+  "name": "Duchessot Real Estate",
+  "description": "Premium real estate, short lets, and apartment booking platform for Duchessot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
